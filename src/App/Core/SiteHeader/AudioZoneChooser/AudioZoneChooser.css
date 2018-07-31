@@ -1,0 +1,9 @@
+.audio-zone-chooser__toggle-button {
+    font-size: .75rem;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.audio-zone-chooser__toggle-button:hover {
+    text-decoration: underline;
+}

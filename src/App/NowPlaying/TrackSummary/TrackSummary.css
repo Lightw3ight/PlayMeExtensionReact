@@ -1,0 +1,22 @@
+.track-summary {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.track-summary__album-art-container {
+    flex: 1 1 100%;
+    max-width: 25%;
+}
+
+.track-summary__info {
+    flex: 1 1 100%;
+    max-width: 75%;
+    padding-left: .5rem;
+}
+
+.track-summary__title a,
+.track-summary__artists a,
+.track-summary__album {
+    color: white;
+}

@@ -1,0 +1,30 @@
+html {
+    height: 600px;
+    /* font-size: 32px; */
+}
+
+/* body {
+    margin: 0;
+    width: 600px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} */
+
+.app-container__content {
+	padding-top: 64px;
+}

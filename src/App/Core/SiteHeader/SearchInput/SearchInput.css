@@ -1,0 +1,12 @@
+.search-input__input {
+	padding: 0 8px 0 8px;
+	box-sizing: border-box;
+	border: none;
+	width: 100%;
+	font-size: 15px;
+	font-weight: 400;
+	outline: none;
+    color: #212121;
+    background-color: transparent;
+	height: 48px;
+}

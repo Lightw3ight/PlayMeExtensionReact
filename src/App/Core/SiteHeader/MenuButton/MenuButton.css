@@ -1,0 +1,13 @@
+.menu-button {
+    background-color: transparent;
+    border: none;
+    padding: 11px 12px;
+    cursor: pointer;
+}
+
+.menu-button>div {
+    width: 16px;
+    height: 2px;
+    background-color: #666;
+    margin: 3px 0;
+}
