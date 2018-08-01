@@ -6,7 +6,6 @@ export class FixedBackground extends Component {
         let { blurred, src } = this.props;
         let classNames = ['album-art-background'];
         let styles = { backgroundImage: `url(${src})` };
-        let imageUrl = blurred ? '' : src;
         if (blurred) {
             classNames.push('album-art-background--blurred');
             styles = {};
@@ -16,7 +15,9 @@ export class FixedBackground extends Component {
             className={classNames.join(' ')}
             style={styles}>
             {blurred &&
-                <img src={src || '/assets/images/pixel.gif'} />
+                <img
+                    src={src || '/assets/images/pixel.gif'}
+                    alt="Album art background" />
             }
         </div>
 

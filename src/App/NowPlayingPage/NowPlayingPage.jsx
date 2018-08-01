@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+// import { bindActionCreators } from 'redux';
 
 import { FixedBackground } from '../Shared/FixedBackground/FixedBackground';
 import { TrackSummary } from './TrackSummary/TrackSummary';
 
-import './NowPlaying.css';
+import './NowPlayingPage.css';
 
 class NowPlayingPage extends Component {
     constructor (props, context) {
@@ -46,9 +46,9 @@ NowPlayingPage.propTypes = {
 
 const mapStateToProps = (state, ownProps) => {
     return {
-    nowPlaying: state.serverState.nowPlaying,
-    connected: state.serverState.connected
-};
+        nowPlaying: state.serverState.nowPlaying,
+        connected: state.serverState.connected
+    };
 };
 
 // const mapDispatchToProps = (dispatch) => ({

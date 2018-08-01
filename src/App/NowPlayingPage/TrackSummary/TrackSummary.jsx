@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { PropTypes } from 'prop-types';
 import './TrackSummary.css';
 
@@ -10,6 +10,7 @@ export function TrackSummary(props) {
                 <div
                     className="col-3">
                     <img
+                        alt="Album art"
                         src={track.Album.ArtworkUrlLarge || '/assets/images/pixel.gif'}
                         className="img-fluid" />
                 </div>

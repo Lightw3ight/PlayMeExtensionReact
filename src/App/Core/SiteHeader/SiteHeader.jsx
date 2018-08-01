@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Button, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import AudioZoneChooser from './AudioZoneChooser/AudioZoneChooser';
 import SearchInput from './SearchInput/SearchInput';
-import { MenuButton } from './MenuButton/MenuButton';
+import MenuButton from '../MenuButton/MenuButton';
 
 import './SiteHeader.css';
 

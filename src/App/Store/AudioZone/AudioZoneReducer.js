@@ -1,4 +1,4 @@
-import { setAudioZoneSuccess } from './AudioZoneActions';
+import { updateAudioZone } from './AudioZoneActions';
 
 export const defaultServerState = {
     audioZoneUrl: null,
@@ -6,7 +6,7 @@ export const defaultServerState = {
 
 export function audioZoneReducer (state = defaultServerState, action) {
     switch (action.type) {
-        case setAudioZoneSuccess.type:
+        case updateAudioZone.type:
             return {
                 ...state,
                 audioZoneUrl: action.data
